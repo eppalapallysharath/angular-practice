@@ -1,0 +1,20 @@
+<div>
+    <p>User Registration From </p>
+    <br/>
+    <div>
+        <label >Name</label>
+        <input type="text" (input)="name($event)" value= "{{ userName }}" #userNameField placeholder="Enter name"/>
+    </div>
+    <div>
+        <label>email</label>
+        <input type="email" value="{{ userEmail }}" #userEmailField placeholder="Enter email" />
+    </div>
+    <div>
+      <button type="button" (click)="handleSubmit(userNameField.value, userEmailField.value)">Submit</button>
+    </div>
+    <div>
+        submitted details
+        <p>{{ userName }}</p>
+        <p>{{ userEmail }}</p>
+    </div>
+</div>
