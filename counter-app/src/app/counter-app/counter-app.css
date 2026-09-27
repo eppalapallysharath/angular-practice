@@ -1,0 +1,43 @@
+.main-counter-div{
+    /* display: flex; */
+    height: 100%;
+    width: 100%;
+    /* justify-content: center; */
+} 
+h3{
+    text-align: center;
+    color: burlywood;
+}
+
+.counter{
+    background-color: gray;
+    width: max-content;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: larger;
+    color: antiquewhite;
+    text-align: center;
+    margin: auto;
+}
+
+.btn{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: bisque;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.btn-orange{
+    background-color: orange;
+}
+
+.btn-green{
+    background-color: green;
+}
+
+.btn-red{
+    background-color: red;
+}
